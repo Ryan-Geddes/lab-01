@@ -64,15 +64,15 @@
 @media screen and (min-width: 768px){
     body {
         background:bisque;
-        /* display:flex;
-        justify-content:center; */
+        display:flex;
+        justify-content:center;
     }
 
     .container {
         display:flex;
         flex-flow:row wrap;
-        justify-content:flex-start;
-        align-items:stretch
+        justify-content:center;
+        max-width:960px;
     }
 
     .container > * {
@@ -95,8 +95,9 @@
     }
 
     .containercd {
+        max-width:760px;
         display:flex; 
-        justify-content:flex-start;
+        justify-content:center;
         flex-flow:row wrap;
 
     }
