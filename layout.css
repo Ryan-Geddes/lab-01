@@ -17,11 +17,16 @@
         height: 150px;
     }
 
-    div{
+    .c{
         width: 480px;
         height: 125px;
     }
 
+    .d{
+        width: 480px;
+        height: 125px;
+    }
+    
     .left {
         width: 240px;
         height: 250px;
